@@ -8,10 +8,10 @@
   },
   "author": "Thomas Hughes <thomas@coder.com>",
   "dependencies": {
-    "dotenv": "*",
-    "yargs": "*",
-    "fs": "*",
     "csv-parser": "*",
-    "node-fetch": "*"
+    "dotenv": "*",
+    "fs": "*",
+    "node-fetch": "*",
+    "yargs": "*"
   }
 }
