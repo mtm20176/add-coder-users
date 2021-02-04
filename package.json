@@ -1,0 +1,17 @@
+{
+  "name": "create-users-from-csv",
+  "version": "1.0.0",
+  "description": "Creates users in Coder from a csv",
+  "main": "create-users-from-csv.js",
+  "scripts": {
+    "start": "node create-users-from-csv.js"
+  },
+  "author": "Thomas Hughes <thomas@coder.com>",
+  "dependencies": {
+    "dotenv": "*",
+    "yargs": "*",
+    "fs": "*",
+    "csv-parser": "*",
+    "node-fetch": "*"
+  }
+}
