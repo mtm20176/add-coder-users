@@ -19,7 +19,7 @@ This Node script can be used on Coder Enterprise to add users in bulk to the Cod
 
 ## Import CSV layout
 
-The script requires you provide a `csv` in the following format and place it in the `/users` directory. There is an `example-import.csv` for reference:
+The script requires you provide a `csv` in the following format and place it in the `/users` directory. There is an `user-import.csv.example` for reference in the `/users` directory:
 
 `Filename: user-import-<epoch_timestamp>.csv`
 
