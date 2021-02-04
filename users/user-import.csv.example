@@ -1,0 +1,3 @@
+Email, LoginType,GivenName,TempPassword,Username
+jsmith@company.com,built-in,John Smith,ch4ng3m3,jsmith
+another@company.com,built-in,Jane Doe,c0d3r1337,another

@@ -36,3 +36,4 @@ someEmail,someLoginType,someName,someTempPassword,someUsername
 - This script requires that the `CODER_TOKEN` provided is for a Site Manager account
 - The `user-import` csv(s) should live in the directory specified by the `.env`'s `INPUT_FOLDER` value
   - It's recommended that you append a timestamp of some sort to the end of the `csv`'s filename to make note of the date the import was done
+- This script adds every member to the default organization, additional organization membership is not currently supported
