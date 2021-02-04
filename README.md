@@ -25,8 +25,8 @@ The script requires you provide a `csv` in the following format and place it in 
 
 ```csv
 Email, LoginType,GivenName,TempPassword,Username
-jsmith@company.com,built-in,John Smith,ch4ng3m3,jsmith
-another@company.com,built-in,Jane Doe,c0d3r1337,another
+jsmith@company.com,"built-in",John Smith,ch4ng3m3,jsmith
+another@company.com,"built-in",Jane Doe,c0d3r1337,another
 someEmail,someLoginType,someName,someTempPassword,someUsername
 ...
 ```
@@ -37,3 +37,4 @@ someEmail,someLoginType,someName,someTempPassword,someUsername
 - The `user-import` csv(s) should live in the directory specified by the `.env`'s `INPUT_FOLDER` value
   - It's recommended that you append a timestamp of some sort to the end of the `csv`'s filename to make note of the date the import was done
 - This script adds every member to the default organization, additional organization membership is not currently supported
+- This script sets the tempPassword to the value provided in the CSV, but the user is prompted to reset their password automatically the first time they log in
