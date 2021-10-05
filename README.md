@@ -1,6 +1,8 @@
 # create-users-from-csv
 
-A Node script for [Coder](coder.com) admins to mass-add users to a Coder deployment
+A Node script for [Coder](coder.com) admins to mass-add users to a Coder deployment.
+
+_Note: This project is a demo and is not actively maintained. It can be used as a reference however, to start with the Coder API._
 
 # Create Users from CSV for Coder Enterprise
 
