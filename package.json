@@ -11,7 +11,7 @@
     "csv-parser": "*",
     "dotenv": "*",
     "fs": "*",
-    "node-fetch": "*",
+    "node-fetch": "^2.6.1",
     "yargs": "*"
   }
 }

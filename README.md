@@ -1,5 +1,7 @@
 # create-users-from-csv
 
+https://github.com/IAmHughes/coder-create-users-from-csv/blob/main/.env.example
+
 A Node script for [Coder](coder.com) admins to mass-add users to a Coder deployment.
 
 _Note: This project is a demo and is not actively maintained. It can be used as a reference however, to start with the Coder API._
@@ -35,6 +37,7 @@ someEmail,someLoginType,someName,someTempPassword,someUsername
 
 ## Caveats and notes
 
+- node-fetch needs to be uninstalled and downgraded to 2.6.1 1. npm uninstall node-fetch 2. npm i node-fetch@2.6.1
 - This script requires that the `CODER_TOKEN` provided is for a Site Manager account
 - The `user-import` csv(s) should live in the directory specified by the `.env`'s `INPUT_FOLDER` value
   - It's recommended that you append a timestamp of some sort to the end of the `csv`'s filename to make note of the date the import was done
